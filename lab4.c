@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+int a[10];
+int *a1;
+a1 = a;
+a1[0] = 1;
+return 0;
+} 
